@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+        }
+        .header{
+            text-align: center;
+            height:100px;
+            width:100%;
+            background-color: blueviolet;
+        }
+        #myul{
+            text-align: center;
+            text-decoration: none;
+            height: 100%;
+            width:100%;
+            margin-top: 0px;
+        }
+        /* .addbtn{
+            padding:10px;
+            width:25%;
+            background:#d9d9d9;
+            text-align: center;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        } */
+        .addBtn:hover {
+            background-color: #bbb;
+            }
+        ul{
+            padding:0px;
+            margin:0px; 
+        }
+        ul li{
+            cursor:pointer;
+            position:relative;
+            padding:10px 10px 10px 10px;
+            background: #eee;
+            font-size: 16px;
+        }
+        ul li:hover {
+  background: #ddd;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h2>To Do List</h2>
+        <input type="text" id="title" placeholder="title">
+        <span  onclick="addElement()" class="addbtn">Add</span>
+    </div>
+    <ul id="myul">
+        <li>Tile1</li>
+        <li>Tile2</li>
+        <li>Tile3</li>
+        <li>Tile4</li>
+        <li>Tile5</li>
+    </ul>
+</body>
+<script>
+
+</script>
+
+</html>
